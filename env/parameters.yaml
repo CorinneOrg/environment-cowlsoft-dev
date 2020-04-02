@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:cowlsoft/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:cowlsoft/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:cowlsoft/prow:hmacToken
+segmentWriteKey: vault:cowlsoft:segmentWriteKey
